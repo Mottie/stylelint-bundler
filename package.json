@@ -1,0 +1,33 @@
+{
+  "name": "stylelint-bundle",
+  "version": "1.0.0",
+  "description": "Rollup stylelint into a single file to use in web extensions",
+  "main": "stylelint-bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "repository": "Mottie/stylelint-bundler",
+  "keywords": [
+    "stylelint",
+    "modules",
+    "rollup",
+    "bundle"
+  ],
+  "author": "Rob Garrison",
+  "license": "MIT",
+  "files": [
+    "stylelint-bundle.js"
+  ],
+  "homepage": "https://github.com/Mottie/stylelint.js#readme",
+  "dependencies": {
+    "stylelint": "^8.0.0"
+  },
+  "devDependencies": {
+    "rollup-plugin-closure-compiler-js": "^1.0.5",
+    "rollup-plugin-commonjs": "^8.1.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.1.0",
+    "rollup-plugin-node-resolve": "^3.0.0"
+  }
+}
